@@ -10,6 +10,6 @@ class ActiveSupport::TestCase
 
   # test/fixtures/*.ymlにあるすべてのfixtureをセットアップする
   fixtures :all
-
+  include ApplicationHelper
   # （すべてのテストで使うその他のヘルパーメソッドは省略）
 end
