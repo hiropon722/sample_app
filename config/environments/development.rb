@@ -69,4 +69,5 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
   # クラウドIDE への接続を許可する
   config.hosts.clear
+    config.force_ssl = true
 end
